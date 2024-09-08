@@ -20,6 +20,14 @@ Installed [ffmpeg](http://ffmpeg.org/)
 
 And installed [ADB](https://developer.android.com/tools/adb) on your system.  
 
+On macos
+```bash
+    brew install ffmpeg@7.0.2 
+    brew install pkg-config@0.29.2
+    pip install -r requriements.txt 
+    pip install av==13.0.0 --no-binary av
+```
+
 Default ADB path is set to `/usr/local/bin/adb` but it might be different on your system.
 You can change it by providing `adb_path` argument to AndroidViewer constructor.
 
